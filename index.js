@@ -41,9 +41,9 @@ function renderBios(data) {
   //astronaunts in the returned data object.
   const root = document.getElementById('root');
   const container = 
-  <div className='container'>
-  {astronautArray}
-  </div>
+    <div className='container'>
+    {astronautArray}
+    </div>
 
   ReactDOM.render( container, root );
   //Then attach to the 'root' div!
